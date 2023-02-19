@@ -1,6 +1,6 @@
 # WhereIf
 
-When building a LINQ query, you may need to involve optional filtering criteria. Avoids if statements when building predicates & lambdas for a query. Useful when you don't know at compile time whether a filter should apply.
+When building a LINQ query, you may need to involve optional filtering criteria. Avoids if statements when building predicates & lambdas for a query. WhereIf extension method is useful when you don't know at compile time whether a filter should apply.
 
 ## Source
 
