@@ -30,7 +30,7 @@ string descriptionFilter = "testDescription";
 
 var products = context.Products
     .WhereIf(!string.IsNullOrEmpty(nameFilter), p => p.Name.Contains(nameFilter))
-    .WhereIf(!string.IsNullOrEmpty(descriptionFilter), p => p.Name.Contains(descriptionFilter))
+    .WhereIf(!string.IsNullOrEmpty(descriptionFilter), p => p.Description.Contains(descriptionFilter))
     .ToList();
 
 Console.ReadLine();
